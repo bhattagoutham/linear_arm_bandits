@@ -1,0 +1,17 @@
+ReadMe
+======
+
+1) Implemented the following algorithms with their respective names as the program names.
+   They present in the "code" folder.
+
+	> XY_adaptive
+	> XY_static
+	> G_static
+
+
+2) Additional arguments are needed to run the program. All programs follow the same format.
+	Eg: >>python xy_adaptive.py <no_of_arms> <dimension_of_arm>
+
+3) If programs exceed more than 50,000 iterations, terminate the program, and restart it.
+   Since the values might have diverged. Test on n_arms = k+1, dim_arm = k would give better results.
+
